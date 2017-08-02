@@ -1,0 +1,24 @@
+input#name, input#singular-name {
+	font-size: 1.7em;
+	line-height: 100%;
+	outline: none;
+	padding: 3px 4px;
+}
+.form-table th {
+	width: auto;
+	text-align: right;
+	font-weight: bold;
+	padding-left: 0;
+	vertical-align: top;
+}
+.form-table th.sub {
+	font-weight: normal;
+}
+table#content-type-settings tr {
+	text-align: top;
+}
+table#content-type-settings tr th {
+	width: 150px;
+	xbackground: #ccc;
+	text-align: right;
+}

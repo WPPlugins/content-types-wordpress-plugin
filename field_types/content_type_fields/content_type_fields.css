@@ -1,0 +1,73 @@
+table#field-builder {
+	width: 100%;
+	border-collapse: collapse;
+}
+table#field-builder a.add-field {
+	width: 100%;
+	padding: 3px 0;
+	display: inline-block;
+	text-align: center;
+	opacity: 0.5;
+}
+table#field-builder a.add-field:hover {
+	opacity: 1;
+}
+table#field-builder input.name {
+	min-width: 150px;
+	width: 100%;
+}
+table#field-builder input.description {
+	min-width: 250px;
+	width: 100%;
+}
+table#field-builder textarea {
+	min-height: 60px;
+	min-width: 250px;
+	width: 100%;
+	font-size: 11px;
+}
+table#field-builder tbody tr.advanced {
+	display: none;
+}
+table#field-builder tbody tr td {
+	padding: 5px;
+	font-size: 11px;
+	vertical-align: top;
+}
+table#field-builder tbody tr.entry-row td {
+	padding: 5px 30px 10px 5px;
+}
+table#field-builder tbody tr.advanced td,
+table#field-builder tbody tr.type-options td {
+	padding: 15px 30px 10px 5px;
+	border-top: #ccc solid 1px;
+}
+table#field-builder tbody tr td.pad {
+	padding: 0;
+}
+table#field-builder tbody tr td label {
+	display: block;
+	float: left;
+	clear: both;
+	width: 100%;
+	padding: 0 0 5px 0;
+}
+table#field-builder tbody tr td>label {
+	font-weight: bold;
+}
+table#field-builder tbody tr td.actions a {
+	font-size: 15px;
+	text-decoration: none;
+}
+table#field-builder tbody tr td.actions a.delete {
+	font-weight: bold;
+	color: red;
+	font-size: 17px;
+}
+table#field-builder tbody tr td.actions a.advanced {
+	font-weight: bold;
+	font-size: 17px;
+}
+table#field-builder tbody tr td.actions a.dead {
+	color: #999;
+}
